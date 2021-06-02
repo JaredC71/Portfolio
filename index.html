@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Colletti | Portfolio</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+            <!--Orange Background-->
+        <div class="brand">
+            <h2>Jared Colletti</h2>
+        </div>
+            <!--navigation items for desktop view-->
+        <nav>
+            <ul>
+                <li class="nav-items"><a href="#about-me">About Me</a></li>
+                <li class="nav-items"><a href="#projects">Work</a></li>
+                <li class="nav-items"><a href="#contact">Contact Me</a></li>
+                <li class="nav-items"><a href="#">Resume</a></li>
+                <li><a href="#" id="menu-btn" onclick="myFunction()"><i class="fas fa-chevron-circle-down"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+        <!--drop down menu, only appears when screen size is smaller than tablet-->
+    <div class="drop-down" id="drop-down">
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+    </div>
+        <!--Orange button over hero image-->
+    <section class="hero">
+        <h3>Hello World <span><i class="fas fa-code"></i></span></h3>
+    </section>
+        <!--Add default padding to below elements-->
+    <div class="padding">
+            <!--about me section-->
+        <article id="about-me">
+            <h1>
+                About<br>Me
+            </h1>
+            <p>Welcome! My name is Jared Colletti, a web developer with a strong passion for coding. I began a
+                self-study
+                path to equip myself with the fundementals of HTML, CSS and JavaScript. I am currently attending the
+                University of Pennsylvannia's full-time coding bootcamp where I am sharpening my skills and learning
+                new ones!<br>
+                Skills: HTML5, CSS, JavaScript, GitBash
+            </p>
+ 
+
+        </article>
+            <!--Projects-->
+        <main>
+            <h1>Work</h1>
+            <section class="projects">
+                <div class="project-housing span-two" id="projects">
+                    <a href="https://jaredc71.github.io/JavaScript-Calculator/"><img src="./img/calculator-pic.png" alt=""></a>
+                    <span class="project-tag" id="calculator-tag">JS Calculator</span>
+                    <div class="Btn-inline">
+                        
+                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/JavaScript-Calculator">Code</a></button>
+                      
+                    </div>
+                </div>
+                <div class="project-housing">
+                    <a href=" https://jaredc71.github.io/Password-Generator/"><img src="./img/password-generator-pic.png" alt=""></a>
+                    <span class="project-tag">Password Generator</span>
+                    <div class="Btn-inline">
+                        
+                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/Password-Generator">Code</a></button>
+                    </div>
+                </div>
+                <div class="project-housing">
+                    <a href=" https://jaredc71.github.io/contact-form-styling/"><img src="./img/contact-form-styling-pic.png" alt=""></a>
+                    <span class="project-tag">Contact Form UX</span>
+                    <div class="Btn-inline">
+                      
+                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/contact-form-styling">Code</a></button>
+                    </div>
+                </div>
+                <div class="project-housing span-two">
+                    <a href=" https://jaredc71.github.io/To-Do-List/"><img src="./img/to-do-list-pic.png" alt=""></a>
+                    <span class="project-tag" id="to-do-list-tag">To-Do-List</span>
+                    <div class="Btn-inline">
+                       
+                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/To-Do-List">Code</a></button>
+                    </div>
+                </div>
+                <div class="project-housing span-two">
+                    <a href="https://jaredc71.github.io/Horiseon/"><img src="./img/Horiseon-landing-pic.png" alt=""></a>
+                    <span class="project-tag" id="to-do-list-tag">Horiseon-landing-page Refactor</span>
+                    <div class="Btn-inline">
+                       
+                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/Horiseon">Code</a></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+        <!--Footer-->
+    <footer id="contact">
+        <h1>Contact</h1>
+        <ul>
+            <li><a href="#">(888)-888-8888</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkIn</a></li>
+            <li><a href="#">Github</a></li>
+        </ul>
+    </footer>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
