@@ -126,6 +126,10 @@ main h1 {
     border-color: transparent;
 
 }
+
+.about-me-text {
+    font-weight: 600;
+}
 #description {
     background-color: var(--primary-color);
     color: white;

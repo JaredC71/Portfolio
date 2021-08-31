@@ -1,128 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jared Colletti | Portfolio</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!--Header-->
     <header>
-            <!--Orange Background-->
-        <div class="brand">
-            <h2>Jared Colletti</h2>
-        </div>
-            <!--navigation items for desktop view-->
-        <nav>
-            <ul>
-                <li class="nav-items"><a href="#about-me">About Me</a></li>
-                <li class="nav-items"><a href="#projects">Work</a></li>
-                <li class="nav-items"><a href="#contact">Contact Me</a></li>
-                <li class="nav-items"><a href="https://docs.google.com/document/d/e/2PACX-1vT9lOSb0iXD3DIW8XmS2ocrLs6XZqELGRQyqswYch5HfpVFlM1q9DP3lpHDy3AOyLHnBACeylSq-2pU/pub">Resume</a></li>
-                <li><a href="#" id="menu-btn" onclick="myFunction()"><i class="fas fa-chevron-circle-down"></i></a></li>
-            </ul>
-        </nav>
+      <!--Orange Background-->
+      <div class="brand">
+        <h2>Jared Colletti</h2>
+      </div>
+      <!--navigation items for desktop view-->
+      <nav>
+        <ul>
+          <li class="nav-items"><a href="#about-me">About Me</a></li>
+          <li class="nav-items"><a href="#projects">Work</a></li>
+          <li class="nav-items"><a href="#contact">Contact Me</a></li>
+          <li class="nav-items">
+            <a
+              href="https://docs.google.com/document/d/e/2PACX-1vT9lOSb0iXD3DIW8XmS2ocrLs6XZqELGRQyqswYch5HfpVFlM1q9DP3lpHDy3AOyLHnBACeylSq-2pU/pub"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a href="#" id="menu-btn" onclick="myFunction()"
+              ><i class="fas fa-chevron-circle-down"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
     </header>
-        <!--drop down menu, only appears when screen size is smaller than tablet-->
+    <!--drop down menu, only appears when screen size is smaller than tablet-->
     <div class="drop-down" id="drop-down">
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="https://docs.google.com/document/d/e/2PACX-1vT9lOSb0iXD3DIW8XmS2ocrLs6XZqELGRQyqswYch5HfpVFlM1q9DP3lpHDy3AOyLHnBACeylSq-2pU/pub">Resume</a></li>
-        </ul>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vT9lOSb0iXD3DIW8XmS2ocrLs6XZqELGRQyqswYch5HfpVFlM1q9DP3lpHDy3AOyLHnBACeylSq-2pU/pub"
+            >Resume</a
+          >
+        </li>
+      </ul>
     </div>
-        <!--Orange button over hero image-->
+    <!--Orange button over hero image-->
     <section class="hero">
-        <h3>Hello World <span><i class="fas fa-code"></i></span></h3>
+      <h3>
+        Hello World <span><i class="fas fa-code"></i></span>
+      </h3>
     </section>
-        <!--Add default padding to below elements-->
+    <!--Add default padding to below elements-->
     <div class="padding">
-            <!--about me section-->
-        <article id="about-me">
-            <h1>
-                About<br>Me
-            </h1>
-            <p>Welcome! My name is Jared Colletti, a web developer with a strong passion for coding. I began a
-                self-study
-                path to equip myself with the fundementals of HTML, CSS and JavaScript. I am currently attending the
-                University of Pennsylvannia's full-time coding bootcamp where I am sharpening my skills and learning
-                new ones!<br>
-                Skills: HTML5, CSS, JavaScript, GitBash, JQuery, Node, Express, MySQL
-            </p>
- 
-
-        </article>
-            <!--Projects-->
-        <main>
-            <h1>Work</h1>
-            <section class="projects">
-                <div class="project-housing span-two" id="projects">
-                    <a href="#"><img src="./img/noteTaker.png" alt=""></a>
-                    <span class="project-tag" id="calculator-tag">JS Calculator</span>
-                    <div class="Btn-inline">
-                        
-                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/note-taker">Code</a></button>
-                      
-                    </div>
-                </div>
-                <div class="project-housing">
-                    <a href="#"><img src="./img/e-commercebackend.PNG" alt=""></a>
-                    <span class="project-tag">Password Generator</span>
-                    <div class="Btn-inline">
-                        
-                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/E-Commerce-Back-End">Code</a></button>
-                    </div>
-                </div>
-                <div class="project-housing">
-                    <a href="https://jaredc71.github.io/Weather-Dashboard/"><img src="./img/weather-dashboard-screenshot.png" alt=""></a>
-                    <span class="project-tag">Weather Dashboard</span>
-                    <div class="Btn-inline">
-                      
-                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/Weather-Dashboard">Code</a></button>
-                    </div>
-                </div>
-                <div class="project-housing span-two">
-                    <a href="https://sushistarlove.github.io/movie-trivia-jbg/"><img src="./img/cinema.jpg" alt=""></a>
-                    <span class="project-tag" id="to-do-list-tag">Movie Trivia Game</span>
-                    <div class="Btn-inline">
-                       
-                        <button class="project-btn" id="codeBtn"><a href="https://github.com/sushistarlove/movie-trivia-jbg">Code</a></button>
-                    </div>
-                </div>
-                <div class="project-housing span-two">
-                    <a href="#"><img src="./img/employeecard.png" alt=""></a>
-                    <span class="project-tag" id="to-do-list-tag">Daily Planner</span>
-                    <div class="Btn-inline">
-                       
-                        <button class="project-btn" id="codeBtn"><a href="https://github.com/JaredC71/cardGenerator">Code</a></button>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-
+      <!--about me section-->
+      <article id="about-me">
+        <h1>About<br />Me</h1>
+        <p>
+          Welcome! My name is Jared Colletti, a web developer with a strong
+          passion for coding. I began a self-study path to equip myself with the
+          fundementals of HTML, CSS and JavaScript. I have completed the
+          University of Pennsylvannia's full-time coding bootcamp where I am
+          sharpened my skills and learned a laundry list of new ones!<br />
+          <span class="about-me-text">Skills: HTML5, CSS, JavaScript, GitBash, React, Node, Express, Mongodb, GraphQl</span>
+        </p>
+      </article>
+      <!--Projects-->
+      <main>
+        <h1>Work</h1>
+        <section class="projects">
+          <div class="project-housing span-two" id="projects">
+            <a href="https://whatsappclone-63554.web.app/"
+              ><img src="./img/WhatsAppClone.png" alt=""
+            /></a>
+            <span class="project-tag" id="calculator-tag">Whats App Clone</span>
+            <div class="Btn-inline">
+              <button class="project-btn" id="codeBtn">
+                <a href="https://whatsappclone-63554.web.app/">Code</a>
+              </button>
+            </div>
+          </div>
+          <div class="project-housing">
+            <a href="https://react-netflix-clone-80ed7.web.app/"
+              ><img src="./img/NetflixClone.png" alt=""
+            /></a>
+            <span class="project-tag">Netflix Clone</span>
+            <div class="Btn-inline">
+              <button class="project-btn" id="codeBtn">
+                <a href="https://github.com/JaredC71/React-Netflix-Clone"
+                  >Code</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="project-housing">
+            <a href="https://jaredc71.github.io/JavaScript-Calculator/"
+              ><img src="./img/calculator-pic.png" alt=""
+            /></a>
+            <span class="project-tag">Js Calculator</span>
+            <div class="Btn-inline">
+              <button class="project-btn" id="codeBtn">
+                <a href="https://github.com/JaredC71/JavaScript-Calculator"
+                  >Code</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="project-housing">
+            <a href="https://jaredc71.github.io/Weather-Dashboard/"
+              ><img src="./img/weather-dashboard-screenshot.png" alt=""
+            /></a>
+            <span class="project-tag">Weather Dashboard</span>
+            <div class="Btn-inline">
+              <button class="project-btn" id="codeBtn">
+                <a href="https://github.com/JaredC71/Weather-Dashboard">Code</a>
+              </button>
+            </div>
+          </div>
+          <div class="project-housing span-two">
+            <a href="https://sushistarlove.github.io/movie-trivia-jbg/"
+              ><img src="./img/cinema.jpg" alt=""
+            /></a>
+            <span class="project-tag" id="to-do-list-tag"
+              >Movie Trivia Game</span
+            >
+            <div class="Btn-inline">
+              <button class="project-btn" id="codeBtn">
+                <a href="https://github.com/sushistarlove/movie-trivia-jbg"
+                  >Code</a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-        <!--Footer-->
+    <!--Footer-->
     <footer id="contact">
-        <h1>Contact</h1>
-        <ul>
-            <li><a href="#">(484)-250-9128</a></li>
-            <li><a href="#">jaredcolletti123@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/jared-colletti-975316215/">LinkIn</a></li>
-            <li><a href="https://github.com/JaredC71">Github</a></li>
-        </ul>
+      <h1>Contact</h1>
+      <ul>
+        <li><a href="#">(484)-250-9128</a></li>
+        <li><a href="#">jaredcolletti123@gmail.com</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/jared-colletti-975316215/"
+            >LinkIn</a
+          >
+        </li>
+        <li><a href="https://github.com/JaredC71">Github</a></li>
+      </ul>
     </footer>
 
-
-
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
