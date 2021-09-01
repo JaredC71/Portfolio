@@ -139,9 +139,11 @@ main h1 {
     color: #333;
 }
 .projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .project-housing {
     margin: 15px;
@@ -150,9 +152,10 @@ main h1 {
     background-color: var(--secondary-color);
     position: relative;
     z-index: 1;
-    bottom: 50px;
+    
+  
     padding: 3px 6px;
-    font-size: 8px;
+    font-size: 14px;
     border-radius: 0px 20px 20px 0px;
 }
 #calculator-tag {
@@ -161,13 +164,13 @@ main h1 {
 
 }
 .project-housing a img {
-    width: 100%;
-    height: auto;
+    width: 350px;
+
     
 }
 .project-housing a img:hover {
     border: 5px solid var(--secondary-color);
-    width: 101%;
+    width: 360px;
 }
 .span-two {
     grid-column: 1 / span 2;
@@ -237,19 +240,12 @@ footer ul li {
         text-align: center;
 
     }
-    .projects {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        
-    }
+    
     .project-housing {
         margin: 15px 0px;
         grid-column: 1 / span 2;
     }
-    #to-do-list-tag {
-        position: relative;
-        bottom: 30px;
-    }
+  
     footer {
         flex-direction: column;
         padding: 0;
