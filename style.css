@@ -23,7 +23,7 @@ a {
 :root {
     --primary-color: #14213d;
     --secondary-color: #fca311;
-    --third-color: #e5e5e5;
+    --third-color: #ffffff;
 }
 header {
     width: 100%;
@@ -102,7 +102,7 @@ article h1 {
 }
 article p {
     padding: 0px 0px 0px 50px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
 }
 main {
@@ -149,14 +149,15 @@ main h1 {
     margin: 15px;
 }
 .project-tag {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     position: relative;
     z-index: 1;
+    color: white;
     
   
-    padding: 3px 6px;
+    padding: 4px 8px;
     font-size: 14px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 5px;
 }
 #calculator-tag {
     padding: 5px 10px;
